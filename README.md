@@ -6,12 +6,6 @@ Keywords : DeepLearning, Computer Vision, OpenCV, Tensorflow, Keras.
 
 METHODOLOGY
 The model proposed here is designed and modeled using python libraries namely Tensorflow, Keras and OpenCV. CNN identifies and categorises images based on previously learned properties. When getting and assessing the necessary features of graphical images in a multi-layered structure, it is particularly effective. Figures 1 through 3 depict the outline of the proposed approach for identifying facemasks. It describes the proposed system, which is entirely made up of picture acquisitions as illustrated in fig. 1. In fig. 2, a person wearing a facemask and not wearing a facemask, as well as a CNN architecture categorization, are used to collect data.
-Fig.1:
-
-Fig.2: 
-
-
-Fig.3:  
 
 For this we collected a database of images which consist of about 1376 images with 690 images containing people wearing face masks and 686 containing  people without masks. By developing the model and using these images we can predict whether a person is  wearing a mask or not using a web-cam.
 1: Dataset will be augmented  to include more images for our training. In this step of data augmentation, we will rotate and flip each of the images in our dataset.
